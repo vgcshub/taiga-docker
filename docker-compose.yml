@@ -109,6 +109,7 @@ services:
       # ...your customizations go here
     networks:
       - taiga
+      - dokploy-network
     # volumes:
     #   - ./conf.json:/usr/share/nginx/html/conf.json
 
