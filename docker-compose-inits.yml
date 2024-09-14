@@ -40,3 +40,8 @@ services:
     volumes: *default-back-volumes
     networks:
       - taiga
+      - dokploy-network
+
+networks:
+  dokploy-network:
+    external: true
